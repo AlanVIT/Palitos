@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin: 14px;
+    padding: 30px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #0f0f0f;
+    transition: 0.5s;
+}
+
+#pl1{
+    border-radius: 10px;
+    background-color: red;
+    padding: 40px 40px;
+}
+#pl2{
+    border-radius: 10px;
+    background-color: blue;
+    padding: 40px 40px;
+    margin-right: 20px;
+
+}
+#pls{
+    display: flex;
+}
+.marcado{
+    border-radius: 10px;
+    border-style: solid;
+    padding: 30px 30px !important; 
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-color: #0f0f0f;
+}

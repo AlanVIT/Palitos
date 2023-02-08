@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Selecciona una opción</h1>
+        <button class="btn" id="options-button">Jugar contra un amigo</button>
+        <ul id="options-list" style="display: none;">
+            <li><a class="btn" href="./seven/seven.html">Jugar con 4 filas</a></li>
+            <li><a class="btn" href="./nine/nine.html">Jugar con 5 filas</a></li>
+            <li><a class="btn" href="./eleven/eleven.html">Jugar con 6 filas</a></li>
+        </ul>
+        <button class="btn">Jugar contra IA (En proseso)</button>
+        <button class="btn">Jugar online (En proseso)</button>
+      </div>
+
+
+    <script>
+    const button = document.getElementById("options-button");
+    const list = document.getElementById("options-list");
+    button.addEventListener("click", function() {
+        if (list.style.display === "none") {
+        list.style.display = "block";
+        } else {
+        list.style.display = "none";
+        }
+    });
+    </script>
+    
+</body>
+</html>
